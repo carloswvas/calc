@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calc {
+  width: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 12px;
+}
+.autor{
+  margin: 0 auto;
+  padding: .6rem;
+}
+.visor{
+  padding:.4rem;
+}
+.calc input {
+  width: 100%;
+  padding: 0.1rem;
+  font-size: 2.4rem;
+  text-align: end;
+  border-radius: 8px;
+}
+.buttons{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+button {
+  width: 90px;
+  height: 70px;
+  margin: .3rem 0;
+  border-radius: 8px;
+  font-size: 1.4rem;
+}
+.clear{
+  width: 187px;
+}
+.equals{
+  width: 187px;
+}
+.zero{
+  align-self: baseline;
+}
+/*****************Let's build*******************/
+.calc{
+  background-color: aqua;
+}
+input{
+  background-color: white;
+}
+.autor{
+  
+}
+.buttons{
+
+}
+button{
+
+}
+.clear{
+
+}
+.zero{
+
+}
+.equals{
+  
+}
+
