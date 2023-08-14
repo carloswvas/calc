@@ -13,12 +13,12 @@ function calcular(tipo, valor){
     if(valor === '='){
       let total = document.getElementById('display').value
       resultado = eval(total)
-      document.getElementById('display').value = resultado
+      document.getElementById('display').value; 
     }
     if(valor === 'quadrado'){
       let total = document.getElementById('display').value
       resultado = Math.pow(total, 2)
-      document.getElementById('display').value = resultado
+      document.getElementById('display').value;
     }
   }
 }
